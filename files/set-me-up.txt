@@ -1,0 +1,35 @@
+# original files of node-red v0.20.8
+
+files/settings.ori.js: node_modules/node-red/settings.js
+files/red.ori.js     : node_modules/node-red/red.js
+files/log.ori.js     : node_modules/@node-red/util/lib/log.js
+
+
+# If you have installed node-red as a global package,
+# then make appropriate changes
+
+# copy the *.new.js files to the following path
+
+files/settings.new.js: <NODE_RED_HOME>/settings.js
+files/red.new.js     : node_modules/node-red/red.js
+files/log.new.js     : node_modules/@node-red/util/lib/log.js
+
+
+# if you have used a different version of node-red,
+# make the appriote cahnges as given in the diff files
+
+files/settings.diff.js
+files/red.diff.js
+files/log.diff.js
+
+
+# you could use the given service file if you need that
+# make appropriate changes in them
+
+files/: /lib/systemd/system/
+files/nodejs.env  : /etc/nodejs.env
+files/node-red.env: /etc/node-red.env
+
+
+
+
