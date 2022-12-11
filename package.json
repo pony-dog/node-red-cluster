@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/pony-dog/node-red-cluster#readme",
   "dependencies": {
-    "node-red": "^0.20.8"
+    "node-red": "^3.0.2"
   }
 }
